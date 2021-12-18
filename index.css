@@ -129,6 +129,12 @@ input {
   padding: 0.4rem 0.4rem;
   border-radius: 0.1rem;
 }
+label {
+  display: none;
+}
+#hide {
+  display: none;
+}
 /* =================HEADER-PART==================== */
 header {
   height: 100vh;
@@ -231,7 +237,7 @@ header {
 }
 .header_info i {
   color: var(--a);
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .header_info h1 {
   color: var(--a);
@@ -240,20 +246,50 @@ header {
 .header_info span {
   color: var(--a);
 }
+
 /* <-----------------ABOUT_HOSPITAL_SECTION----------------->*/
 .about_hospital_section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  margin: 7rem 0rem;
+  /* grid-gap: 2rem; */
 }
 
 .left_about_hospital {
 }
 .left_about_hospital_image_container {
+  position: relative;
+  min-height: 300px;
 }
 .left_about_hospital_image_container img {
 }
+.left_about_hospital_image_container::after {
+  content: "";
+  left: -19px;
+  top: -19px;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  background-color: var(--a);
+  z-index: -111;
+  border-radius: 0.4rem;
+}
+.left_about_hospital_image_container::before {
+  content: "";
+  bottom: -14px;
+  right: 6px;
+  width: 450px;
+  height: 400px;
+  position: absolute;
+  background-color: var(--a);
+  z-index: -111;
+  border-radius: 0.4rem;
+}
+.left_about_hospital_image_container img {
+  z-index: 111;
+}
 .right_about_hospital {
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,6 +427,34 @@ header {
   color: var(--w);
   letter-spacing: 1px;
   line-height: 1.5rem;
+}
+.our_expertise_right_image_container {
+  min-height: 400px;
+  position: relative;
+  padding: 0.5rem;
+  /* border: 1px solid red; */
+}
+.our_expertise_right_image_container::after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: var(--a);
+  top: -15px;
+  left: -15px;
+  z-index: -1111;
+  border-radius: 0.4rem;
+}
+.our_expertise_right_image_container::before {
+  content: "";
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: var(--a);
+  bottom: -13px;
+  right: -15px;
+  z-index: -1111;
+  border-radius: 0.4rem;
 }
 .our_expertise_right_image_container img {
   width: 26rem;
@@ -564,6 +628,11 @@ header {
 .our_latest_blog_bottom_content small {
   font-weight: 600;
   cursor: pointer;
+  /* margin: 1rem; */
+}
+.our_latest_blog_bottom_content small i {
+  /* font-size: 1rem; */
+  margin: 0rem 0.5rem;
 }
 .our_latest_blog_bottom_content::before {
   width: 100%;
