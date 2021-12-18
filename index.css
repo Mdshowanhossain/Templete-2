@@ -244,6 +244,9 @@ header {
 .about_hospital_section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
 }
 
 .left_about_hospital {
@@ -251,12 +254,18 @@ header {
 .left_about_hospital_image_container {
 }
 .left_about_hospital_image_container img {
+  /* width: 100%; */
+  /* max-width: 90rem; */
 }
 .right_about_hospital {
+  /* margin-left: 2rem; */
+  /* border: 1px solid red; */
   padding: 0rem 1rem;
+  /* background: url("./images/h.jpg"); */
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  /* height: 70vh; */
 }
 .right_about_hospital h1 {
   font-size: 2rem;
@@ -268,6 +277,8 @@ header {
   margin: 2rem 0rem;
 }
 .right_about_hospital_circle_wrapper {
+  /* margin-bottom: 2rem; */
+  /* padding-bottom: 2rem; */
 }
 .right_about_hospital_circle_wrapper p {
   line-height: 1.6rem;
@@ -299,6 +310,7 @@ header {
 
 /* <-----------------OUR_SERVICE_HOSPITAL_SECTION-----------------> */
 .our_hospital_service_container {
+  /* height: 100vh; */
 }
 .our_hospital_service_container h1 {
   margin: 2rem 0rem;
@@ -316,13 +328,19 @@ header {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+  /* border: 1px solid red; */
 }
 .our_hospital_service_card_desc {
   display: flex;
   flex-direction: column;
+  /* align-items: center; */
+  /* width: 12rem; */
+  /* height: 11.5rem; */
   text-align: center;
+  /* line-height: 3rem; */
   padding: 1.6rem 1.8rem;
   border-radius: 0.2rem;
+  /* background-color: white; */
   box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.1);
 }
 .our_hospital_service_card_desc i {
@@ -519,6 +537,7 @@ header {
   padding: 5rem 0rem;
 }
 .our_latest_blog_container h1 {
+  /* margin: 2rem 0rem; */
   margin-bottom: 2rem;
   font-weight: 800;
   position: relative;
@@ -636,6 +655,7 @@ footer {
   background-position: center center;
   margin-top: 5rem;
   padding: 4rem 0rem;
+  /* height: 100vh; */
 }
 .footer_wrapper {
   display: grid;
@@ -650,6 +670,9 @@ footer {
   display: flex;
   align-items: center;
   margin: 2rem 0rem;
+  /* flex-shrink: 0; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
 }
 .f_1 i {
   color: var(--w);
@@ -698,6 +721,8 @@ textarea {
   outline: none;
 }
 .f_s_btn {
+  /* width: 5rem; */
+  /* border: 1px solid red; */
   border: none;
   outline: 0;
   padding: 1rem 2.5rem;
