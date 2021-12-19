@@ -380,6 +380,72 @@
   }
   .know_more:hover {
   }
+  /* <-----------------OUR_EXPERTISE_SECTION-----------------> */
+
+  .hospital_introduction_bg_image {
+    min-height: 50vh;
+    /* min-width: 680px; */
+    /* background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.7) 0%,
+      rgba(0, 0, 121, 0.7) 35%,
+      rgba(0, 212, 255, 0.7) 100%
+    ),
+    url("./images/head-1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* margin-top: 5rem; */
+  }
+  .hospital_introduction_section_container {
+  }
+  .play_btn_div {
+    /* text-align: center;
+    color: var(--w);
+    padding-top: 6rem;
+    font-size: 3.5rem; */
+  }
+  .hospital_intro_desc {
+    width: 38rem;
+    /* padding: 1rem 0rem;
+    color: var(--w);
+    position: relative; */
+  }
+  .hospital_intro_desc::before {
+    /* content: ""; */
+  }
+  .hospital_intro_desc h3 {
+    /* font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem; */
+  }
+  .hospital_intro_desc p {
+    /* line-height: 1.8rem;
+    font-size: 0.8rem; */
+  }
+  .hospital_intro_bm_shadow {
+    /* margin-top: 5rem; */
+    /* background-color: var(--w); */
+    /* padding: 1.5rem 0rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); */
+  }
+  .hospital_intro_bm_shadow span {
+    /* border: 1px solid var(--a); */
+    padding: 0.5rem;
+    /* border-radius: 0.2rem; */
+    /* background-color: var(--a); */
+    /* color: var(--w); */
+    /* transition: all 0.4s ease-in-out; */
+    /* cursor: pointer; */
+    font-size: 0.8rem;
+  }
+  /* .hospital_intro_bm_shadow span:hover {
+    background: transparent;
+    color: var(--a);
+    border: 1px solid var(--w);
+  } */
+  .hospital_intro_bm_shadow_content {
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -689,6 +755,72 @@
   /* .our_expertise_right_image_container img {
     width: 26rem;
   } */
+
+  /* <-----------------HOSPITAL_INTRODUCTION_SECTION-----------------> */
+  .hospital_introduction_bg_image {
+    min-height: 50vh;
+    /* min-width: 680px; */
+    /* background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.7) 0%,
+      rgba(0, 0, 121, 0.7) 35%,
+      rgba(0, 212, 255, 0.7) 100%
+    ),
+    url("./images/head-1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* margin-top: 5rem; */
+  }
+  .hospital_introduction_section_container {
+  }
+  .play_btn_div {
+    /* text-align: center;
+    color: var(--w);
+    padding-top: 6rem;
+    font-size: 3.5rem; */
+  }
+  .hospital_intro_desc {
+    width: 38rem;
+    /* padding: 1rem 0rem;
+    color: var(--w);
+    position: relative; */
+  }
+  .hospital_intro_desc::before {
+    /* content: ""; */
+  }
+  .hospital_intro_desc h3 {
+    /* font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem; */
+  }
+  .hospital_intro_desc p {
+    /* line-height: 1.8rem;
+    font-size: 0.8rem; */
+  }
+  .hospital_intro_bm_shadow {
+    /* margin-top: 5rem; */
+    /* background-color: var(--w); */
+    /* padding: 1.5rem 0rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1); */
+  }
+  .hospital_intro_bm_shadow span {
+    /* border: 1px solid var(--a); */
+    padding: 0.4rem;
+    /* border-radius: 0.2rem; */
+    /* background-color: var(--a); */
+    /* color: var(--w); */
+    /* transition: all 0.4s ease-in-out; */
+    /* cursor: pointer; */
+    font-size: 0.7rem;
+  }
+  /* .hospital_intro_bm_shadow span:hover {
+    background: transparent;
+    color: var(--a);
+    border: 1px solid var(--w);
+  } */
+  .hospital_intro_bm_shadow_content {
+  }
 }
 @media (max-width: 575.98px) {
 }
