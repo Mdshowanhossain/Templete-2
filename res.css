@@ -222,6 +222,17 @@
     font-size: 0.7rem;
     margin-top: 1rem;
   }
+
+  .join_our_left h3 {
+    font-size: 1.2rem;
+  }
+  .join_our_left span {
+    font-size: 0.8rem;
+  }
+
+  .email {
+    width: 20rem;
+  }
 }
 
 @media (max-width: 992px) {
@@ -381,6 +392,13 @@
   }
   /* <-----------------OUR_EXPERTISE_SECTION-----------------> */
 
+  .our_expertise_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   .hospital_introduction_bg_image {
     min-height: 50vh;
   }
@@ -397,6 +415,45 @@
   }
   .hospital_intro_bm_shadow_content {
   }
+
+  /* <-----------------MEET_OUR_DOCTOR_SECTION-----------------> */
+  .meet_our_doctor_card_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .our_doctor_btn_wrapper button {
+    padding: 0.7rem 2.8rem;
+  }
+  /* <-----------------MEET_OUR_DOCTOR_SECTION-----------------> */
+
+  .our_latest_blog_card_container_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .join_our_left h3 {
+    font-size: 1rem;
+  }
+  .join_our_left span {
+    font-size: 0.7rem;
+  }
+
+  .email {
+    width: 15rem;
+  }
+
+  /* <-----------------FOOTER_SECTION-----------------> */
+
+  .footer_wrapper {
+    padding: 0rem 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+  }
+  .f_1 i {
+    font-size: 1.2rem;
+  }
+  .f_s_btn {
+    padding: 0.7rem 2rem;
+  }
+  /* <-----------------FOOTER_SECTION-----------------> */
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -617,6 +674,52 @@
 
   .hospital_intro_bm_shadow_content {
   }
+
+  /* <-----------------MEET_OUR_DOCTOR_SECTION-----------------> */
+
+  .meet_our_doctor_card_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .our_doctor_btn_wrapper button {
+    padding: 0.7rem 2.2rem;
+  }
+  /* <-----------------MEET_OUR_DOCTOR_SECTION-----------------> */
+
+  /* <-----------------OUR_BLOG_SECTION-----------------> */
+
+  .our_latest_blog_card_container_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* <-----------------OUR_BLOG_SECTION-----------------> */
+
+  .join_our_left h3 {
+    font-size: 1rem;
+  }
+  .join_our_left span {
+    font-size: 0.7rem;
+  }
+
+  .email {
+    width: 15rem;
+  }
+
+  /* <-----------------FOOTER_SECTION-----------------> */
+  .footer_wrapper {
+    padding: 0rem 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+  }
+
+  .f_1 i {
+    font-size: 1.2rem;
+  }
+  .f_s_btn {
+    padding: 0.7rem 2rem;
+  }
+  /* <-----------------FOOTER_SECTION-----------------> */
 }
 @media (max-width: 575.98px) {
 }
